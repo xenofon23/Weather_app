@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+        <div class="select">
+          
+            <form action="/action_page.php">
+              <h2 id="h2">Weather in</h2>
+                <label id="form" for="city">Choose a city:</label>
+                <select id="city" onchange="myFunction()">
+                  <option  value="Thessaloniki">Thessalonik</option>
+                  <option  value="Athens">Athens</option>
+                  <option  value="Aridaia">Aridaia</option>
+                </select>
+                <h4 id="weather">hlios</h4>
+                <h4 id="temp">20 c</h4>
+                <h4 id="wind">wind </h4>
+                <h4 id="hum">humidity </h4>
+                <br><br>
+              
+              </form>
+        
+        
+        
+        
+            </div>
+            <script src="main.js"></script>
+</body>
+</html>

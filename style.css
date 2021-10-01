@@ -1,0 +1,48 @@
+
+body {  display: flex;
+    align-items: center ;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    
+
+    background-color:black;
+    background-image: url("https://source.unsplash.com/1929x1080/?nature,water");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.select {
+    
+    background-image: url("back.jpg");
+    opacity: 0.8;
+    background-position: center;
+    border-radius:30px;
+    background-size: cover;
+     border-radius: 30px;
+     width: 50%;
+     font-family:cursive;
+     text-align: center;
+     font-size:120%;
+    }
+
+
+
+.clock {
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    opacity:0.8;
+   
+
+
+}
